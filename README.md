@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <b>🌐 Website:</b> <a href="https://vectorinstitute.github.io/HumaniBench/">vectorinstitute.github.io/HumaniBench</a>  
+  <b>🌐 Website:</b> <a href="https://vectorinstitute.github.io/humaniBench/">vectorinstitute.github.io/humaniBench</a>  
   &nbsp;|&nbsp;
   <b>📄 Paper:</b> <a href="https://arxiv.org/abs/2505.11454">arxiv.org/abs/2505.11454</a>  
   &nbsp;|&nbsp;
@@ -114,7 +114,7 @@ If you use HumaniBench or this evaluation suite in your work, please cite:
 
 ## 📬 Contact
 
-For questions, collaborations, or dataset access requests, please [open an issue](https://github.com/VectorInstitute/HumaniBench/issues) in this repository or contact the corresponding author at [shaina.raza@vectorinstitute.ai](mailto:shaina.raza@vectorinstitute.ai), as listed in the paper.
+For questions, collaborations, or dataset access requests, please [open an issue](https://github.com/VectorInstitute/humaniBench/issues) in this repository or contact the corresponding author at [shaina.raza@vectorinstitute.ai](mailto:shaina.raza@vectorinstitute.ai), as listed in the paper.
 
 ---
 
