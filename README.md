@@ -100,7 +100,7 @@ If you use HumaniBench or this evaluation suite in your work, please cite:
 ```bibtex
 @misc{raza2025humanibenchhumancentricframeworklarge,
         title={HumaniBench: A Human-Centric Framework for Large Multimodal Models Evaluation}, 
-        author={Shaina Raza and Aravind Narayanan and Vahid Reza Khazaie and Ashmal Vayani and Mukund S. Chettiar and Amandeep Singh and Mubarak Shah and Deval Pandya},
+        author={Shaina Raza and Aravind Narayanan and Vahid Reza Khazaie and Ashmal Vayani and Ahmed Y. Radwan and Mukund S. Chettiar and Amandeep Singh and Mubarak Shah and Deval Pandya},
         year={2025},
         eprint={2505.11454},
         archivePrefix={arXiv},
