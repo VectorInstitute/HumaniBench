@@ -14,7 +14,6 @@
 
 ---
 
----
 
 ## 🧠 Overview
 
@@ -98,15 +97,12 @@ This repository provides code and scripts for evaluating LMMs across **7 human-a
 If you use HumaniBench or this evaluation suite in your work, please cite:
 
 ```bibtex
-@misc{raza2025humanibenchhumancentricframeworklarge,
-        title={HumaniBench: A Human-Centric Framework for Large Multimodal Models Evaluation}, 
-        author={Shaina Raza and Aravind Narayanan and Vahid Reza Khazaie and Ashmal Vayani and Ahmed Y. Radwan and Mukund S. Chettiar and Amandeep Singh and Mubarak Shah and Deval Pandya},
-        year={2025},
-        eprint={2505.11454},
-        archivePrefix={arXiv},
-        primaryClass={cs.CV},
-        url={https://arxiv.org/abs/2505.11454}, 
-  }
+        @article{raza2025humanibench,
+            title={Humanibench: A human-centric framework for large multimodal models evaluation},
+            author={Raza, Shaina and Narayanan, Aravind and Khazaie, Vahid Reza and Vayani, Ashmal and Radwan, Ahmed Y and Chettiar, Mukund S and Singh, Amandeep and Shah, Mubarak and Pandya, Deval},
+            journal={arXiv preprint arXiv:2505.11454},
+            year={2025}
+          }
 
 ```
 
