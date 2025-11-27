@@ -181,8 +181,11 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            
-Large multimodal models (LMMs) have achieved impressive performance on vision–language tasks such as visual question answering (VQA), image captioning, and visual grounding, however, they remain insufficiently evaluated for alignment with human-centered (HC) values such as fairness, ethics, and inclusivity. To address this gap, we introduce HumaniBench, a comprehensive benchmark comprising 32,000 real-world image–question pairs and an accompanying evaluation suite. Using a semi-automated annotation pipeline, each sample is rigorously validated by domain experts to ensure accuracy and ethical integrity. HumaniBench assesses LMMs across seven key alignment principles: fairness, ethics, empathy, inclusivity, reasoning, robustness, and multilinguality: through a diverse set of open- and closed-ended VQA tasks. Grounded in AI ethics theory and real-world social contexts, these principles provide a holistic lens for examining human-aligned behavior. Benchmarking results reveal distinct behavioral patterns: certain model families excel in reasoning, fairness, and multilinguality, while others demonstrate greater robustness and grounding capability. However, most models still struggle to balance task accuracy with ethical and inclusive responses. Techniques such as chain-of-thought prompting and test-time scaling yield measurable alignment gains. As the first benchmark explicitly designed for HC evaluation, HumaniBench offers a rigorous testbed to diagnose limitations, quantify alignment trade-offs, and promote the responsible development of large multimodal models. All data and code are publicly released to ensure transparency and reproducibility.
+            Although recent large multimodal models (LMMs) demonstrate impressive progress on vision–language tasks, their alignment with human-centered (HC) principles, such as fairness, ethics, inclusivity, empathy, and robustness; remains poorly understood. We present HumaniBench, a unified evaluation framework designed to characterize HC alignment across realistic, socially grounded visual contexts. 
+            HumaniBench contains 32,000 expert-verified image–question pairs derived from real-world news imagery and spanning seven evaluation tasks: scene understanding, instance identity, multiple-choice visual question answering (VQA), multilinguality, visual grounding, empathetic captioning, and image-resilience testing. 
+            Each task is mapped to one or more HC principles through a principled operationalization of metrics covering accuracy, harmful-content detection, hallucination and faithfulness, coherence, cross-lingual quality, empathy, and robustness. 
+            We evaluate 15 state-of-the-art LMMs under this framework and observe consistent cross-model trade-offs: proprietary systems achieve the strongest performance on ethics, reasoning, and empathy, while open-source models exhibit superior visual grounding and resilience. All models, however, show persistent gaps in fairness and multilingual inclusivity. We further analyze the effect of inference-time techniques, finding that chain-of-thought prompting and test-time scaling yield 8–12\% improvements on several HC dimensions. HumaniBench provides a reproducible, extensible foundation for systematic HC evaluation of LMMs and enables fine-grained analysis of alignment trade-offs that are not captured by conventional multimodal benchmarks.
+
           </p>
         </div>
       </div>
@@ -199,7 +202,7 @@ Large multimodal models (LMMs) have achieved impressive performance on vision–
       <!-- Abstract. -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
-          <h2 class="title is-3"><em>HumaniBench</em> is the first evaluation framework to unify these human-centric principles—such as fairness, ethics, empathy, and multilingual understanding—into a single suite.</h2>
+          <h2 class="title is-3"><em>HumaniBench</em> is the first evaluation framework to unify these human-centric principles such as fairness, ethics, empathy, and multilingual understanding into a single suite.</h2>
 
 
           <div class="content has-text-justified">
@@ -208,9 +211,9 @@ Large multimodal models (LMMs) have achieved impressive performance on vision–
             <ol>
               <li>We release a corpus of about 32K image–text pairs curated from real-world news articles on diverse, socially relevant topics. For each image we generate a caption and assign a social-attribute tag (age, gender, race, sport, or occupation) to create rich metadata for downstream task annotations</li>
   
-              <li>Guided by HCAI, we distill seven human-aligned principles into seven realistic LMM tasks: <i>(T1) Scene Understanding, (T2) Instance Identity, (T3) Multiple-Choice VQA, (T4) Multilinguality, (T5) Visual Grounding, (T6) Empathetic Captioning, and (T7) Image Resilience</i>. Each sample in each task is labeled through a semi-automated GPT-4o workflow and rigorously verified by domain experts to ensure reliable ground truth at scale</li>
+              <li>Guided by HCAI, we distill seven human-aligned principles into seven realistic LMM tasks: <i>(T1) Scene Understanding, (T2) Instance Identity, (T3) Multiple-Choice VQA, (T4) Multilinguality, (T5) Visual Grounding, (T6) Empathetic Captioning, and (T7) Image Resilience</i>. Each sample in each task is labeled through a semi-automated workflow and rigorously verified by domain experts to ensure reliable ground truth at scale</li>
               
-              <li>We benchmark 15 leading LMMs—13 open-source and 2 proprietary—delivering the first holistic measure of their human-readiness. All data, code, and evaluation scripts are publicly released to foster transparent and reproducible research</li>
+              <li>We benchmark 15 leading LMMs, 13 open-source and 2 proprietary models, delivering the first holistic measure of their human-readiness. All data, code, and evaluation scripts are publicly released to foster transparent and reproducible research</li>
             </ol>
             </p>
           </div>
